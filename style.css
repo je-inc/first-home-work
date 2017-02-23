@@ -1,0 +1,299 @@
+@import "http://webfonts.ru/import/roboto.css";
+/*
+	Roboto, 100, 100 italic, 300, 300 italic, 400, 400 italic, 500, 500 italic, 700, 700 italic, 900, 900 italic
+*/
+
+*{
+	margin: 0; 
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration: none;
+	transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+h2{
+	text-align: center;
+	font-size: 34px;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+table {
+	border-collapse: collapse;
+}
+header{
+	background: #151515;
+	background-position: 0 0;
+	overflow: hidden;
+	padding: 10px 0; 
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+
+}
+.user{
+}
+.user h4{
+	color: #f5f5f5;
+	margin: 16px 20px 0;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.user img{
+	border-radius: 50%;
+	width: 60px;
+
+}
+.slogan{
+	background-image: url(image/section-bg-3.jpg);
+	background-size: 100%;
+	height: 500px;
+	position: relative;
+}
+.slogan h1{
+	color: #f5f5f5;
+	font-size: 50px;
+	font-weight: 500;
+	text-align: center;
+	padding-top: 150px;
+	letter-spacing: 3px;
+}
+.slogan a{
+	color: #f5f5f5;
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	border: 2px solid #f5f5f5;
+	border-radius: 23px;
+	padding: 5px 25px;
+	margin: 130px auto;
+	display: table;
+}
+.slogan a:hover{
+	background: #f5f5f5;
+	color: #151515;
+	transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.learner{
+	padding:40px 8% 40px;
+	overflow: hidden;
+}
+.learner ol{
+	width: 35%;
+	float: left;
+}
+.learner ol li{
+	font-size: 20px;
+	margin: 4px 0 3px;
+}
+.learner p{
+	line-height: 2;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	width: 55%;
+	float: right;
+	text-align: center;
+	color: #777;
+	margin-top: 10px;
+}
+.video{
+	background-image: url(image/section-bg-17.jpg);
+	overflow: hidden;
+	padding: 40px 6%;
+}
+.serial{
+	float: left;
+	width: 42%;
+}
+.serial h3{
+	font-size: 30px;
+	font-weight: 300;
+	margin: 30px;
+	color: #f5f5f5;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.serial p{
+	color: #f5f5f5;
+	line-height: 2;
+	font-size: 17px;
+	font-weight: 300;
+	letter-spacing: 1.2px;
+}
+.video iframe{
+	float: right;
+}
+.table{
+	padding: 50px 5%;
+}
+.table table{
+	border: 1px solid #000;
+	width: 100%;
+}
+.table table th{
+	border: 1px solid #000;
+	padding: 5px;
+	font-size: 18px;
+}
+.table table td{
+	border: 1px solid #000;
+	padding: 5px;
+}
+.fa-check{
+	width: 15px;
+	color: green;
+	margin-left: 10px; 
+}
+.fa-times{
+	color: red;
+}
+footer{
+	background: #151515;
+	padding: 20px 5%;
+	margin-top: 20px;
+}
+footer p{
+	color: #f5f5f5;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+							/* Registration */
+
+.reg{
+	background-color: rgb(244, 244, 244);
+}
+.reg-h1{
+	margin: 50px auto 30px;
+    background-color: #f8f8f8;
+    margin-top: 80px;
+    padding: 50px 0 50px 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+.wrapper{
+	position: relative;
+	overflow: hidden;
+}
+.license{
+	margin: 30px 5% 0;
+	font-size: 18px;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.7;
+}
+.registration{
+	padding: 30px 4% 50px;
+	overflow: hidden;	
+}
+.form1{
+	width: 48%;
+	margin: 0px 1%;
+	float: left;
+	overflow: hidden;
+}
+.input{
+	height: 37px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 14px;
+    color: #777;
+    width: 43%;
+    margin: 10px 4px;
+    border: 1px solid rgba(0,0,0, 0.1);
+    background-color: #fff;
+}
+.form1 form select {
+	width: 48%;
+	color: #777;
+}
+.form1 form p{
+	margin: 5px 0;
+	font-size: 16px;
+	font-weight: 400;
+	color: #777;
+}
+.avatar{
+	float: left;
+    width: 48%;
+    margin: 0 1%;
+}
+.sex{
+	float: left;
+    width: 48%;
+    margin: 0 1%;
+}
+.form2{
+	width: 48%;
+	margin: 0px 1%;
+	float: right;
+}
+.about-me{
+	min-height: 60px;
+	max-height: 190px;
+    padding: 13px;
+    font-size: 14px;
+    color: #777;
+    min-width: 94%;
+    max-width: 94%;
+    margin: 10px 4px;
+    border: 1px solid rgba(0,0,0, 0.1);
+    background-color: #fff;
+}
+.submit{
+	margin: 50px auto 0;
+	display: table;
+}
+.i-agree{
+	font-size: 20px;
+	font-weight: 400;
+	color: #333;
+	float: left;
+	margin: 8px 10px 0 0;
+}
+.submit input{
+	height: 20px;
+    color: #777;
+    width: 20px;
+    border: 1px solid rgba(0,0,0, 0.7);
+    background-color: #fff;
+    float: left;
+    margin: 11px 25px 0 0;
+}
+.submit button{
+	color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #fff;
+    border: 2px solid rgba(0,0,0, 0.7);
+    border-radius: 7px;
+    padding: 8px 16px;
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.submit button:hover{
+	color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: rgba(0,0,0, 0.9);
+    border: 2px solid rgba(0,0,0, 0.7);
+    border-radius: 7px;
+    padding: 8px 16px;
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
